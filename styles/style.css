@@ -1,12 +1,7 @@
-body {
+html, body, a, p, h1, h2, h3, div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-a, p, h1, h2, h3, div {
-  margin: 0;
-  padding: 0;
 }
 
 .page {
@@ -101,4 +96,49 @@ a, p, h1, h2, h3, div {
   height: 568px;
   z-index: 0;
   background-color: #2f80ed;
+}
+
+.description {
+  padding-top: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent::before {
+  content: 'Вывод: ';
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
