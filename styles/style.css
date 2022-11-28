@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, p, h1, h2, h3, div {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -14,18 +25,80 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  width: 228px;
+  height: 32px;
+
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+
+}
+
+.header__title {
+  display: inline;
+  color: #000;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  z-index: 2;
+  margin: auto;
+  margin-left: 64px;
+
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  color: #000;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link::after {
+  content: ' \27F6';
+}
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+
+}
+
 .header__square-pic {
-  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
   width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  height: 568px;
+  z-index: 0;
+  background-color: #2f80ed;
 }
