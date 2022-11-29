@@ -107,7 +107,7 @@ section, ul, li {
 
 .two-columns__brief {
   width: 175px;
-  line-height: 1.2em;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
@@ -165,7 +165,7 @@ section, ul, li {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .table__sell {
@@ -280,7 +280,6 @@ section, ul, li {
 .table_theme_dark {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 auto;
   z-index: 1;
 }
@@ -378,5 +377,3 @@ section, ul, li {
   margin-right: 10px;
   text-align: center;
 }
-
-
