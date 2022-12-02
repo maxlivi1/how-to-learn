@@ -224,7 +224,7 @@ section, ul, li, span {
   font-weight: normal;
 }
 
-.table__text_secondary {
+.table__text:last-child {
   margin-top: 20px;
 }
 
