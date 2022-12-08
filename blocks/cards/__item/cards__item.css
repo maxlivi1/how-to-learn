@@ -1,0 +1,10 @@
+.cards__item {
+  margin: 0 100px 0 0;
+  padding: 60px 0 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* с этим нужно что-то делать */
+  text-align: center;
+}
