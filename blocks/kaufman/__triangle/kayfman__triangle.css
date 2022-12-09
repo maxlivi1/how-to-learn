@@ -1,7 +1,7 @@
 .kayfman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../../../images/kaufman-triangle.svg);
   background-position: -210px 0;
   position: absolute;
   top: -50px;
