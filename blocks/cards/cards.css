@@ -6,4 +6,5 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 920px;
+  column-gap: 100px;
 }

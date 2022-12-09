@@ -4,7 +4,7 @@
   background-image: url(/images/kaufman-triangle.svg);
   background-position: -210px 0;
   position: absolute;
-  top: 0;
+  top: -50px;
   right: -210px;
   z-index: 0;
 }
