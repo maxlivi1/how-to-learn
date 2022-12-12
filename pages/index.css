@@ -36,7 +36,6 @@
 @import url(../blocks/oakley/oakley.css);
 
 @import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__img/feynman__img.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -49,15 +48,16 @@
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/__quote/khan_quote.css);
-@import url(../blocks/khan/__title/khan_title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__title/khan__title.css);
 
-@import url(../blocks/kaufman/kayfman.css);
-@import url(../blocks/kaufman/__triangle/kayfman__triangle.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
